@@ -98,7 +98,7 @@ Fig 6: Top 20 most common two-word pair (bi-grams)
 </table>
 
 
-## 5 Evaluation
+## 5 Model Evaluation
 For each algorithm ran on the common Document Term Matrix (DTM) that resulted after building a bag-of-word on the cleaned data set describe in step 4. To evaluate the best set of hyperparameters for each algorithm we selected the Coherence score. Coherence  calculates if the words in the same topic make sense when they are put together. Coherence approximates Human Word Intrusion very well, as opposed to other metrics like Perplexity and Log Likelihood which can correlate negatively with Human Word Intrusion. These measurements help distinguish between topics that are semantically interpretable topics and topics that are artifacts of statistical inference. We settled on Cv as the Coherence measure due to it being generally the better performing, although it was more resource intensive, than Umass. Different approaches were taken to determine the optimal model for the three algorithms:
 
 ### 5.1 LDA Evaluation 
