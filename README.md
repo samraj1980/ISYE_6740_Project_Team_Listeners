@@ -17,6 +17,14 @@ The data set was sourced from Twitter. It consists of a data stream with tweets 
 
 ### 2.1. Dataset exploratory analysis
  
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/samraj1980/ISYE_6740_Project/blob/main/Picture1.png">
+    </td>
+  </tr>
+</table> 
+ 
 In Fig 1. We see the total volume of tweets growing over time, as we get closer to the election day. Overall Democrats had consistently double of the volume of tweets than republicans.
  
 As we can see in Fig 2 there is a group of 28 representatives that represent the 48% of the total volume of tweets. Across party lines, the results are very similar, with the top 20 republican representatives representing 62% of the total volume, while 59% for the top 20 democratic representatives. 
