@@ -20,7 +20,7 @@ The data set was sourced from Twitter. It consists of a data stream with tweets 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/samraj1980/ISYE_6740_Project/blob/main/Picture1.png">
+      <img src="https://github.com/samraj1980/ISYE_6740_Project/blob/main/images/Picture1.png">
     </td>
   </tr>
 </table> 
