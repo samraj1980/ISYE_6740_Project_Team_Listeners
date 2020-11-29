@@ -98,10 +98,10 @@ Fig 6: Top 20 most common two-word pair (bi-grams)
 </table>
 
 
-## 5 Model Evaluation
+## 5 Model Evaluation Strategy
 For each algorithm ran on the common Document Term Matrix (DTM) that resulted after building a bag-of-word on the cleaned data set describe in step 4. To evaluate the best set of hyperparameters for each algorithm we selected the Coherence score. Coherence  calculates if the words in the same topic make sense when they are put together. Coherence approximates Human Word Intrusion very well, as opposed to other metrics like Perplexity and Log Likelihood which can correlate negatively with Human Word Intrusion. These measurements help distinguish between topics that are semantically interpretable topics and topics that are artifacts of statistical inference. We settled on Cv as the Coherence measure due to it being generally the better performing, although it was more resource intensive, than Umass. Different approaches were taken to determine the optimal model for the three algorithms:
 
-### 5.1 LDA Evaluation 
+### 5.1 Latent Dirichlet Allocation (LDA) Model Evaluation 
 For LDA, 3 different model variations were tested for coherence.
 1.	Plain LDA model iterated for the number of topics (5 to 35)
 2.	The LDA model was iterated using a combination of the following hyperparameters: Number of Topics (5 to 35), document topic density alpha (range 0.01 to 1, symmetric and asymmetric) and topic word density beta (range 0.01 to 1 and symmetric).
@@ -117,7 +117,7 @@ Model 3 had a higher coherence score than the other two models, with highest coh
 </table>
 
 
-### 5.2 NMF Evaluation 
+### 5.2 Non-Negative Matrix Factorization (NMF) Model Evaluation 
 For NMF, 3 different model variations were tested for coherence, across a range of topics from 5 to 35: 
 1.	Plain NMF, using Coordinate Descent solver and Frobenius norm and no regularization.
 2.	Modified NMF, same as above with regularization of alpha=.1 and regularization mixing parameter l1_ratio=.5
@@ -136,7 +136,7 @@ Fig 8: Results from NMF model
   </tr>
 </table>
 
-### 5.3 LSA Evaluation 
+### 5.3 Latent Semantic Analysis (LSA) Model Evaluation 
 LSA (truncated SVD) being the simples of all 3 algorithms, has no other hyperparameters than the number of topics. The coherence score was evaluated variating topics from 5 to 35.
 The highest coherence score was 0.33 with 20 topics, considerably lower than the previous two algorithms. 
 Fig 9: Results from LSA model
