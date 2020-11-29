@@ -2,9 +2,9 @@
 
 
 
-[![](https://img.shields.io/badge/authors-%40Neepa%20Biswas-blue)]
-[![](https://img.shields.io/badge/authors-%40Sam%20Raj-blue)](https://www.linkedin.com/in/samraj-anand-jeyachandran-pmp-7b273a6/)
-[![](https://img.shields.io/badge/authors-%40Alain%20R.Garcia-blue)]
+[![](https://img.shields.io/badge/authors-%40Neepa%20Biswas-blue)](https://www.linkedin.com/in/neepa-biswas-3325b87/)
+[![](https://img.shields.io/badge/authors-%40Sam%20Raj-blue)](https://www.linkedin.com/in/sam-raj-anand-jeyachandran-pmp-7b273a6/)
+[![](https://img.shields.io/badge/authors-%40Alain%20R.Garcia-blue)](https://www.linkedin.com/in/renegar)
 
 
 ## 1 Problem statement  
