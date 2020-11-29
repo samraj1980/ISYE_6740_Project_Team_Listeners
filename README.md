@@ -75,7 +75,7 @@ In topic modeling, data preparation is critical to end with meaningful topics, e
 
 
 ### 4.1 Final word cloud result after optimization of non-relevant or conflicting words:
-Fig 5: Final word count
+Fig 5: Final word Cloud
 
  <table>
   <tr>
