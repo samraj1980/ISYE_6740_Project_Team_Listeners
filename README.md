@@ -274,9 +274,5 @@ In this project, we investigated topic modeling from tweets from the members of 
 8.	Nonnegative matrix factorization for interactive topic modeling and document clustering Da Kuang and Jaegul Choo and Haesun Park
 9.	Spatial Aggregation Facilitates Discovery of Spatial Topics :Aniruddha Maiti Temple University Philadelphia, PA-19122, USA aniruddha.maiti@temple.edu Slobodan Vucetic Temple University Philadelphia, PA-19122, USA vucetic@temple.edu
 10.	Performance Analysis of Topic Modeling Algorithms for news articles: T.Rajasundari1, P.Subathra2,P.N.Kumar3. Amrita University, India
-
-11 Work Distribution
-Neepa Biswas	LDA Model Implementation & Tuning, Bayes Model Tuning, Data Preprocessing Tuning, Exploratory Data Analysis, Project write up
-Samraj A. Jeyachandran	LSA Model Implementation & Tuning, Data Preprocessing Tuning, Exploratory Data Analysis, Tweeter Ingestion Module, Ensemble Module Implementation and Tuning
-Alain R. Garcia	NMF Model Implementation & Tuning, Exploratory Data Analysis, Results Analysis & Visualizations, Data Pre-processing Tuning, Project write up 
+ 
 
