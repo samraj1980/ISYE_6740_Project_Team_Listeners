@@ -1,10 +1,6 @@
 # Listen to our representatives: Using Topic Modeling and Topic Classification to understand the message themes from Congress during the 2020 election.
 
 
-[![](https://img.shields.io/badge/authors-%40Sam%20R.Anand-blue)](https://www.linkedin.com/in/sam-raj-anand-jeyachandran-pmp-7b273a6/)
-
-
-
 ## 1 Problem statement  
 In a heavily contested US presidential race, we want to use Machine Learning to understand what the main themes are in each party broadcasted through Twitter. We will focus on tweets from the house of representatives, across the Republican and Democratic parties. 
 We want to understand what key themes are being pushed out by each party, how consistent are the messages within the parties and what is the reach (geo). In general, we want to understand how cohesive each campaign is in regards to their messages.  
